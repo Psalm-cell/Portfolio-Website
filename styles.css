@@ -15,17 +15,21 @@ body {
 
 nav {
     background-color: #ffffff;
-    padding: px;
-    margin-bottom: 10%;
+    padding: 0 30px;
+    margin-bottom: 70px;
+    width: 100%;
 }
 .logo{
     display: flex;
     align-items: center;
     justify-content: space-around;
     margin: 10px;
-    padding: 1px;
+    padding: px;
     font-size: 17px;
     font-weight: bold;
+}
+p {
+    margin: 10px;
 }
 .navdiv {
     display: flex;
@@ -48,19 +52,39 @@ li a {
 section {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+}
+.content {
+    text-align: center;
+    margin: 90px;
 }
 .content h1 {
+    font-family: sans-serif;
     text-align: center;
-    font-size: 3.5em;
-    margin-bottom: 10px;
+    font-size: 3.7em;
+    margin-bottom: 0;
 }
 .social {
+    justify-self: flex-start;
     background-color: white;
     text-align: center;
-    width: 5%;
 }
 .media {
-    width: 30px;
-    height: 30px;
+   display: flex;
+   flex-direction: column;
+   padding: 12px;
+   padding-left: 5px;
+}
+.content_p {
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+button {
+    font-size: 16px;
+    font-weight: bolder;
+    background-color: gold;
+    border-radius: 7px;
+    border-color: gold;
+    width: 250px;
+    padding: 15px;
 }
