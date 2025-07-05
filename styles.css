@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body {
+    margin: 0;
+    background-image: url('images/3d-background-with-white-cubes.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Navbar Styling*/
+
+nav {
+    background-color: #ffffff;
+    padding: px;
+    margin-bottom: 10%;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 1px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+li {
+    display: inline-block;
+    list-style-type: none;
+}
+li a {
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 15px;
+}
+
+/* Content Styling*/
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.content h1 {
+    text-align: center;
+    font-size: 3.5em;
+    margin-bottom: 10px;
+}
+.social {
+    background-color: white;
+    text-align: center;
+    width: 5%;
+}
+.media {
+    width: 30px;
+    height: 30px;
+}
